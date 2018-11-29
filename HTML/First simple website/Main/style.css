@@ -1,0 +1,29 @@
+h1, h2, h3, p {
+  font-family: helvetica;
+}
+.Title {
+  background-image:url("D:/Projects/First simple website/Images/pattern.jpeg");
+}
+.Title_caption {
+  color:khaki;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color:white;
+}
+
+.Brushes {
+  background-color: mediumspringgreen;
+}
+
+.Frames {
+  background-color: lightcoral;
+}
+
+.Paint {
+  background-color: skyblue;
+}
