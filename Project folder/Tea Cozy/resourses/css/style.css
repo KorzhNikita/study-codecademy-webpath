@@ -1,0 +1,150 @@
+
+body {
+	margin: 0;
+	background-color: black;
+	font-family: 'helvetica';
+	font-size: 22px;
+	opacity: 0.9;
+	color: seashell;
+}
+
+/* Header section */ 
+.header {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 69px;
+	max-height: 300px;
+	width: 100%;
+	background-color: black;
+	border-bottom: 1px solid seashell; 
+	position: fixed;
+	z-index: 10;
+}
+
+.header img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+.header ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header ul li a{
+	color: seashell;
+	text-decoration: underline;
+	padding: 10px;
+}
+
+/* Mission */
+
+.mission {
+	position: relative;
+	top: 69px;
+	background-image: url(../images/img-mission-background.jpg);
+	background-position: center;
+	min-width: 300px;
+	max-width: 1200px;
+	height: 700px;
+	margin: 0 auto 50px auto;
+	display: flex;
+	align-items: center;
+}
+
+.banner {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
+
+/* Featured Tea */
+.featuredTea{
+	position: relative;
+	top: 69px;
+	text-align: center;
+}
+
+.imageContainer {
+	min-width: 300px;
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto 50px;
+}
+
+.imageContainer figure{
+	margin: 0 10px;
+}
+
+.imageContainer img{
+	width: 300px;
+	height: 200px;
+}
+
+.imageContainer h4{
+	margin: 10px;
+}
+/* Locations */
+
+.locations {
+	position: relative;
+	top: 69px;
+	background-image: url(../images/img-locations-background.jpg);
+	background-position: center;
+	min-width: 300px;
+	max-width: 1200px;
+	min-height: 500px;
+	max-height: 100%;
+	margin: 0 auto 20px auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	Align-content: center;
+}
+
+.locations h2{
+	margin: 0 40%;
+}
+
+.locationsBanner{
+	display: inline-flex;
+	flex-direction: column;
+	width:300px;
+	background-color: black;
+	justify-content: center;
+	margin: 15px 40px;
+	align-items: center;
+	max-height: 60%;
+}
+
+.locationsBanner h3{
+	margin: 10px;
+}
+
+/* Boarder + copy */
+
+.footer {
+	position: relative;
+	top: 69px;
+	text-align:center;
+	max-height: 200px;
+}
+
+.copy { 
+	position: relative;
+	top: 69px;
+	text-align:left;
+	margin:0 20px;
+}
+
+/*anchor*/
+.anchor p{
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+	
