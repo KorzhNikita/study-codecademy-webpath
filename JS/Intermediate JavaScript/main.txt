@@ -1,0 +1,11 @@
+const sortSpeciesByTeeth = function (arr, field) { 
+	const sort = field => {
+  	return function (x ,y) {
+    	return x[field] > y[field];
+  	}
+	}
+  arr.sort(sort(field));
+}
+sortSpeciesByTeeth(speciesArray, 'numTeeth')
+console.log(speciesArray);
+
